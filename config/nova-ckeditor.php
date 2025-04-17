@@ -237,7 +237,18 @@ return [
             ],
 
             'options' => [
-                'styles' => [],
+                'styles' => [
+                    [
+                        'name' => 'Custom Style 1',
+                        'element' => 'div',
+                        'classes' => ['custom-style-1'],
+                    ],
+                    [
+                        'name' => 'Custom Style 2',
+                        'element' => 'div',
+                        'classes' => ['custom-style-2'],
+                    ],
+                ],
                 'headings' => [
                     [
                         'model' => 'paragraph',
