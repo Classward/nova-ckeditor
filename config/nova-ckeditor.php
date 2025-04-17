@@ -237,6 +237,7 @@ return [
             ],
 
             'options' => [
+                'styles' => [],
                 'headings' => [
                     [
                         'model' => 'paragraph',

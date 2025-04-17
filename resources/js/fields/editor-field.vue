@@ -67,6 +67,7 @@ export default {
         createCkEditor() {
             const toolbarOptions = this.initToolbarOptions(this.currentField.toolbarOptions)
             const headings = toolbarOptions.headings
+            const styles = toolbarOptions.styles
             const image = toolbarOptions.image ?? CkEditor.defaultConfig.image
 
             delete toolbarOptions.headings
@@ -98,6 +99,9 @@ export default {
                         ...CkEditor.defaultConfig.simpleUpload.headers,
                         'X-Toolbar': this.currentField.toolbarName
                     },
+                },
+                style: {
+                    definitions: styles
                 },
                 ...toolbarOptions
             }

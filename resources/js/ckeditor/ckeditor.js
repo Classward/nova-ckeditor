@@ -35,6 +35,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment'
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic'
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold'
 import Link from '@ckeditor/ckeditor5-link/src/link'
+import Style from '@ckeditor/ckeditor5-style/src/style'
 
 // Images and Media
 import Image from '@ckeditor/ckeditor5-image/src/image'
@@ -153,6 +154,7 @@ export default class CkEditor extends ClassicEditorBase {
             EmojiObjects,
             EmojiSymbols,
             EmojiFlags,
+            Style
         ]
     }
 }

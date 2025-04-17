@@ -37,6 +37,7 @@
         "@ckeditor/ckeditor5-theme-lark": "^40.2.0",
         "@ckeditor/ckeditor5-ui": "^40.2.0",
         "@ckeditor/ckeditor5-upload": "^40.2.0",
+        "@ckeditor/ckeditor5-style": "^40.2.0",
         "@vue/compiler-sfc": "^3.3.4",
         "cross-env": "^7.0.3",
         "laravel-mix": "^6.0.49",
